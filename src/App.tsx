@@ -1,7 +1,14 @@
+import React,{ Fragment } from "react"
+import MITimeSelector from "./materials/MTTimeSelector"
+
+
 function App() {
 
   return (
-    <div> Hello World!! </div>
+    <Fragment>
+      <div> Hello World!! </div>
+      <MITimeSelector />
+    </Fragment>
   )
 }
 
